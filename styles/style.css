@@ -1,0 +1,36 @@
+* {
+    max-width: 993px;
+}
+.navbar {
+    height: 92px;
+    background-color: #412567;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.left {
+    margin-left: 124px;
+}
+
+span {
+ background: linear-gradient(to top, gold, hotpink, darkorchid);
+ -webkit-background-clip: text;
+     color: transparent;
+    text-shadow: 1px 12px 26px rgba(0, 0, 0, 0.8);
+}
+.center {
+ 
+display: flex;
+gap: 20px;
+}
+.right {          
+   
+    margin-right: 124px;
+   background-image: linear-gradient(gold, hotpink, darkorchid);
+  border-radius: 45px;
+  
+}
+
+
+    
