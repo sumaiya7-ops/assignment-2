@@ -1,9 +1,10 @@
 * {
     max-width: 993px;
+    font-family: Inter;
 }
 .navbar {
     height: 92px;
-    background-color: #412567;
+    background-color: #1a1a3a;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -31,6 +32,261 @@ gap: 20px;
   border-radius: 45px;
   
 }
+header {
+    margin: 0;
+    padding: 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 760px;
+    overflow: hidden;
+}
+.container {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    max-width: 993px;
+    height: 400px;
+}
 
-
+.img1 {
+    width: 100%;
+    height: 772px;
+    position: absolute;
+   bottom: -50px;
+     left: 0;
+    z-index: -1;
     
+}
+.container1 {
+    position: relative;
+    width: 200px;
+    margin-top: -15%;
+   
+   margin-left: 40%;
+}
+.l-image {
+    width: 100%;
+    height: auto;
+    display: block;
+   
+    
+}
+.l-image1 {
+width: 70px;
+margin-bottom: 30%px;
+
+
+ transform: translate(-2%, -145%); 
+}
+
+.new1 {
+   position: absolute;
+   top: 12px;
+   right: 15px;
+   background-color: #0ff27c;
+   color: black;
+   padding: 2px 6px;
+   border-radius: 20px;
+   font-size: 10px;
+   align-items: center;
+   
+}
+.btn {
+   
+}
+.btn1 {
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    margin-left: 41%;
+    height: 30px;
+    gap: 8px;
+    background-image: linear-gradient(darkorchid, hotpink, gold );
+    border-radius: 45px;
+   color: white;
+   
+}
+.btn2 {
+    font-size: 10px;
+    height: 27px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    gap: 8px;
+    border: 1px solid #00FF88;
+    margin-left: 53%;
+    background: none;
+    color: #00FF88;
+    margin-top: -3%;
+    border-radius: 45px;
+}
+.i1 {
+    width: 12px;
+}
+.i2 {
+    width: 12px;
+}
+.d1 {
+    
+   height: 646px;
+  margin-top: -19%;
+  background-color: #010134;
+  color: #FFFFFF;
+}
+.d2 {
+   
+    height: 222px;
+    width: 743px;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 50px;
+    
+}
+   .d3 {
+    
+    font-size: 48px;
+    height: 58px;
+    margin-top: 0;
+    text-align: center;
+   
+   }
+.d4 {
+    
+    height: 148px;
+    margin-top: -24px;
+    text-align: center;
+    line-height: 12px;
+}
+hr {
+    width: 743px;
+    margin-top: 80px;
+    opacity: 10%;
+}
+.d5 {
+   
+    width: 743px;
+    height: 94px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+    text-align: center;
+    ;
+} 
+.da {
+    
+    width: 148px;
+    height: 94px;
+}
+.db {
+    
+    width: 148px;
+    height: 94px;
+}
+.dc {
+    
+    width: 148px;
+    height: 94px;
+}
+.dd {
+    
+    width: 148px;
+    height: 94px;
+}
+.hight {
+    height: 58px;
+    margin-top: 0;
+    font-size: 38px;
+    color: #00FF88;
+}
+.hight1 {
+    height: 20px;
+    font-size: 14px;
+    margin-top: -12px;
+}
+.body-artical {
+   
+    height: 1121px;
+    background-color: #2e1350;
+}
+.artical-had {
+    
+    width: 773px;
+    height: 58px;
+   text-align: center;    
+    
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-weight: bold;
+}
+.big {
+    margin-top: 0;
+    font-size: 48px;
+    font-weight: bold;
+}
+.menu {
+    
+    width: 773px;
+    height: 783px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  
+}
+
+.no {
+    width: 60px;
+    height: 60px;
+}
+.grid1 {
+    grid-row: span 2;
+    background-color: #351165;
+    
+    border-radius: 40px;
+    
+}
+.grid2 {
+    grid-column: span 2;
+    background-color: #351165;
+    
+    border-radius: 40px;
+}
+.grid3 {
+    grid-column: span 2;
+    background-color: #351165;
+    
+    border-radius: 40px;
+}
+.grid4 {
+    grid-column: span 2;
+    background-color: #351165;
+   
+    border-radius: 40px;
+}
+.grid5 {
+    background-color: #351165;
+     border-radius: 40px;
+}
+.white {
+    color: #FFFFFF;
+}
+.opacity {
+    color: #FFFFFF;
+    opacity: 60%;
+}
+.img2 {
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.img0 {
+    margin-top: 107px;
+    margin-left: 40px;
+}
