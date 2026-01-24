@@ -28,9 +28,19 @@ gap: 20px;
 .right {          
    
     margin-right: 124px;
-   background-image: linear-gradient(gold, hotpink, darkorchid);
+   /*background-image: linear-gradient(gold, hotpink, darkorchid);*/
+   background-color: darkorchid;
+  animation-name: animation ;
+  animation-duration: 5s;
   border-radius: 45px;
-  
+}
+@keyframes animation {
+    from {
+        background-color: darkorchid;
+    }
+    to {
+        background-color: deeppink;
+    }
 }
 header {
     margin: 0;
@@ -245,6 +255,7 @@ hr {
 .no {
     width: 60px;
     height: 60px;
+    
 }
 .grid1 {
     grid-row: span 2;
@@ -289,4 +300,208 @@ hr {
 .img0 {
     margin-top: 107px;
     margin-left: 40px;
+}
+.last {
+ 
+    height: 1276px;
+    background-color: #010134;
+  margin-top: -120px;
+   border: 1px solid;
+    
+}
+.last1 {
+    
+    width: 773px;
+    height: 538px;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+.last2 {
+  
+    height: 58px;
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+  
+margin-top: 120px;
+   
+}
+.last4 {
+   
+    height: 440px;
+    width: 240px;
+   background-color: #1a1a3a;
+   border-radius: 20px;
+}
+
+
+.i3 {
+   width: 100%;
+}
+.last3 {
+    display: flex;
+    gap: 19px;
+}
+.clock {
+    display: flex;
+    height: 24px;
+    gap: 6px;
+    padding-left: 24px;
+}
+.white1 {
+    margin-top: 0;
+    color: #00FF88;
+    
+}
+.content {
+    
+    height: 226px;
+    margin-top: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+.small {
+    font-size: 16px;
+}
+.second-content {
+    margin-top: 120px;
+    
+    width: 773px;
+   height: 378px;
+   margin-left: auto;
+   margin-right: auto;
+  
+}
+.second-content-h1 {
+ 
+    height: 58px;
+    color: white;
+    text-align: center;
+}
+.second-content-body {
+    
+    height: 280px;
+    background-color: #1a1a3a;
+    color: white;
+    
+}
+.second-content-img {
+   
+    display: flex;
+   
+}
+.circle {
+   width: 128px;
+   height: 200px;
+    
+   
+}
+.circle1 {
+   
+    width: 128px;
+    height: 200px;
+   margin-top: 40px;
+   margin-bottom: 40px;
+   margin-left: 25px;
+}
+.second-content-had {
+   
+    margin-left: 15px;
+    height: 183px;
+    margin-top: 48px;
+}
+.hight0 {
+ 
+    margin-top: 0;
+    height: 39px;
+    font-weight: bold;
+    
+}
+.hight2 {
+    
+    height: 72px;
+    margin-top: -12px;
+    color: white;
+    opacity: 60%;
+}
+.group {
+   
+    width: 118px;
+    height: 40px;
+    margin-top: 16px;
+   display: flex;
+   gap: 5px;
+}
+.group1 {
+    border: 1px solid white;
+    width: 24.5px;
+    height: 30px;
+   margin-top: 5px;
+   border-radius: 100%;
+}
+.group0 {
+   margin-top: 7px;
+   margin-left: 3.5px;
+}
+
+footer {
+   
+    height: 412px;
+    background-image: url("../B13-A02-TechWave/assets/hero-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+}
+.footer1 {
+    margin-top: -25px;
+    width: 844px;
+    height: 172px;
+   margin-left: auto;
+  margin-right: auto;
+
+}
+.footer-title {
+     height: 1px;
+     border: 1px solid #010134;
+    color: white;
+    text-align: center;
+}
+.footer-title1 {
+
+  margin-top: 100px;
+}
+.footer-icon {
+   margin-top: 160px;
+    width: 338px;
+    height: 24px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+}
+.footer-icon-c {
+    display: flex;
+    color: white;
+    width: 70px;
+    
+}
+.gap {
+    margin-left: 17px;
+}
+.font {
+   margin-top: 7px;
+    font-size: 10px;
+    margin-left: 4px;
+}
+.img-small {
+    width: 15px;
+    height: 15px;
+    margin-top: 4px;
+}
+.end {
+    color: white;
+    opacity: 60%;
+    text-align: center;
 }
