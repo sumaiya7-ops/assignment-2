@@ -1,14 +1,21 @@
-* {
+*{
     max-width: 993px;
     font-family: Inter;
 }
-.navbar {
+
+.navbar{
     height: 92px;
-    background-color: #1a1a3a;
+    background: rgba(26, 26, 58, 0.85);
+    backdrop-filter: blur(10px);
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: white;
+    padding: 0 7%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    transition: all 0.3s ease;
 }
 .left {
     margin-left: 124px;
